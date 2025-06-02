@@ -1,0 +1,72 @@
+{
+  "id": 1964724681,
+  "type": "Feature",
+  "properties": {
+    "date:inception_lower": "2025-06-01",
+    "date:inception_upper": "2025-06-01",
+    "edtf:cessation": "",
+    "edtf:inception": "2025-06-01",
+    "flysfo:actual_timestamp": -1,
+    "flysfo:airline": "DL",
+    "flysfo:date": "2025-06-01",
+    "flysfo:estimated_timestamp": 1748818800,
+    "flysfo:event": "D",
+    "flysfo:flight_number": "DL8842",
+    "flysfo:gate": "",
+    "flysfo:journey": "SFO-BUR",
+    "flysfo:scheduled_timestamp": 1748819400,
+    "flysfo:timestamp": 1748819400,
+    "geom:area": 0,
+    "geom:bbox": "-122.370943,34.196704,-118.353322,37.617990",
+    "geom:latitude": 35.907347,
+    "geom:longitude": -120.3621325,
+    "iata:airline": "DL",
+    "icao:airline": "DAL",
+    "lbl:latitude": 37.61799,
+    "lbl:longitude": -122.370943,
+    "sfomuseum:airline_id": 1159284261,
+    "sfomuseum:arrival_id": 1746879083,
+    "sfomuseum:departure_id": 102527513,
+    "sfomuseum:flight_id": "20250601-D-DAL-8842",
+    "sfomuseum:flight_number": [
+      "DAL8842",
+      "DL8842"
+    ],
+    "sfomuseum:placetype": "flight",
+    "src:geom": "flysfo",
+    "wof:belongsto": [],
+    "wof:country": "US",
+    "wof:created": 1748881678,
+    "wof:geomhash": "5b5841a3ebf3c57d9843115edfb8ee6b",
+    "wof:hierarchy": [
+      {
+        "custom_id": 1964724681,
+        "flight_id": 1964724681
+      }
+    ],
+    "wof:id": 1964724681,
+    "wof:involves": [
+      1746879083,
+      102527513,
+      1159284261,
+      -1
+    ],
+    "wof:lastmodified": 1748881678,
+    "wof:name": "DL8842 (SFO-BUR)",
+    "wof:parent_id": -1,
+    "wof:placetype": "custom",
+    "wof:placetype_alt": [
+      "flight"
+    ],
+    "wof:repo": "sfomuseum-data-flights-2025-06",
+    "wof:superseded_by": [],
+    "wof:supersedes": []
+  },
+  "bbox": [
+    -122.370943,
+    34.196704,
+    -118.353322,
+    37.61799
+  ],
+  "geometry": {"coordinates":[[-122.370943,37.61799],[-118.353322,34.196704]],"type":"MultiPoint"}
+}
