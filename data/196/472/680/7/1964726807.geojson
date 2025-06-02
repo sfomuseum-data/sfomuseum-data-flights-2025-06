@@ -2,10 +2,12 @@
   "id": 1964726807,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-06-02",
+    "date:cessation_upper": "2025-06-02",
     "date:inception_lower": "2025-06-01",
     "date:inception_upper": "2025-06-01",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-06-01",
+    "edtf:cessation": "2025-06-02T05:06:00Z",
+    "edtf:inception": "2025-06-01T14:30:19-07:00",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2025-06-01",
@@ -21,9 +23,11 @@
     "geom:latitude": 39.9938205,
     "geom:longitude": -122.6226995,
     "iata:airline": "UA",
+    "icao:aircraft": "B38M",
     "icao:airline": "UAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1528104575,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527187,
     "sfomuseum:departure_id": 102527513,
@@ -34,7 +38,15 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N47293",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:gufi": "KO04882200"
+    },
     "wof:country": "US",
     "wof:created": 1748882198,
     "wof:geomhash": "3d19e2486afc236330c096bb1f630ba3",
@@ -46,12 +58,12 @@
     ],
     "wof:id": 1964726807,
     "wof:involves": [
+      1528104575,
       102527187,
       102527513,
-      1159285413,
-      -1
+      1159285413
     ],
-    "wof:lastmodified": 1748882198,
+    "wof:lastmodified": 1748882357,
     "wof:name": "UA8107 (SFO-MFR)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

@@ -2,10 +2,12 @@
   "id": 1964721873,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-06-02",
+    "date:cessation_upper": "2025-06-02",
     "date:inception_lower": "2025-06-01",
     "date:inception_upper": "2025-06-01",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-06-01",
+    "edtf:cessation": "2025-06-02T03:22:00Z",
+    "edtf:inception": "2025-06-01T23:44:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2025-06-01",
@@ -21,9 +23,11 @@
     "geom:latitude": 29.139362,
     "geom:longitude": -113.8106995,
     "iata:airline": "UA",
+    "icao:aircraft": "B737",
     "icao:airline": "UAL",
     "lbl:latitude": 37.61776,
     "lbl:longitude": -122.3918,
+    "sfomuseum:aircraft_id": 1159289869,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102536481,
@@ -34,6 +38,9 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route"
+    ],
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +55,9 @@
       1947304069,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "101695828"
+    },
     "wof:country": "US",
     "wof:created": 1748881015,
     "wof:geomhash": "87e43b321087b5e7d68ac47fe0a6e824",
@@ -83,12 +93,13 @@
     ],
     "wof:id": 1964721873,
     "wof:involves": [
+      1947304137,
+      1159289869,
       102527513,
       102536481,
-      1159285413,
-      1947304137
+      1159285413
     ],
-    "wof:lastmodified": 1748881015,
+    "wof:lastmodified": 1748882333,
     "wof:name": "UA3905 (PVR-SFO)",
     "wof:parent_id": 1947304137,
     "wof:placetype": "custom",

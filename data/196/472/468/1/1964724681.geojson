@@ -2,10 +2,12 @@
   "id": 1964724681,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-06-02",
+    "date:cessation_upper": "2025-06-02",
     "date:inception_lower": "2025-06-01",
     "date:inception_upper": "2025-06-01",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-06-01",
+    "edtf:cessation": "2025-06-02T00:05:35Z",
+    "edtf:inception": "2025-06-01T23:14:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "DL",
     "flysfo:date": "2025-06-01",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.907347,
     "geom:longitude": -120.3621325,
     "iata:airline": "DL",
+    "icao:aircraft": "B752",
     "icao:airline": "DAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289939,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 1746879083,
     "sfomuseum:departure_id": 102527513,
@@ -34,7 +38,16 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N655DL",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "101709376",
+      "swim:gufi": "KO80761101"
+    },
     "wof:country": "US",
     "wof:created": 1748881678,
     "wof:geomhash": "5b5841a3ebf3c57d9843115edfb8ee6b",
@@ -46,12 +59,12 @@
     ],
     "wof:id": 1964724681,
     "wof:involves": [
-      1746879083,
-      102527513,
       1159284261,
-      -1
+      1159289939,
+      1746879083,
+      102527513
     ],
-    "wof:lastmodified": 1748881678,
+    "wof:lastmodified": 1748882369,
     "wof:name": "DL8842 (SFO-BUR)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

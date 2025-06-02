@@ -2,10 +2,12 @@
   "id": 1964724117,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2025-06-01",
-    "date:inception_upper": "2025-06-01",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-06-01",
+    "date:cessation_lower": "2025-06-02",
+    "date:cessation_upper": "2025-06-02",
+    "date:inception_lower": "2025-06-02",
+    "date:inception_upper": "2025-06-02",
+    "edtf:cessation": "2025-06-02T11:39:00Z",
+    "edtf:inception": "2025-06-02T06:37:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AS",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -98.07939400000001,
     "iata:airline": "AS",
     "iata:base_airline": "",
+    "icao:aircraft": "B39M",
     "icao:airline": "ASA",
     "icao:base_airline": "HAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1528104577,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102534365,
     "sfomuseum:base_flight_id": "20250601-D-HAL-6986",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N929AK",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +62,10 @@
       1947304259,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "101650159",
+      "swim:gufi": "KO18491200"
+    },
     "wof:country": "US",
     "wof:created": 1748881543,
     "wof:geomhash": "1348792a172720778d3219cc18ccd8ee",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 1964724117,
     "wof:involves": [
+      1528104577,
       102534365,
       102527513,
       1159283813,
       1947304293,
       1159284489
     ],
-    "wof:lastmodified": 1748881543,
+    "wof:lastmodified": 1748882346,
     "wof:name": "AS35 (SFO-JFK)",
     "wof:parent_id": 1947304293,
     "wof:placetype": "custom",
