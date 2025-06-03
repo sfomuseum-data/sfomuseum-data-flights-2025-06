@@ -2,10 +2,12 @@
   "id": 1964731165,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-06-02",
+    "date:cessation_upper": "2025-06-02",
     "date:inception_lower": "2025-06-02",
     "date:inception_upper": "2025-06-02",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-06-02",
+    "edtf:cessation": "2025-06-02T02:23:24-07:00",
+    "edtf:inception": "2025-06-02T10:55:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2025-06-02",
@@ -21,9 +23,11 @@
     "geom:latitude": 39.1546165,
     "geom:longitude": -98.2742345,
     "iata:airline": "UA",
+    "icao:aircraft": "B752",
     "icao:airline": "UAL",
     "lbl:latitude": 37.620244,
     "lbl:longitude": -122.387813,
+    "sfomuseum:aircraft_id": 1159289939,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102530049,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N58101",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +58,10 @@
       1947304447,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "101727558",
+      "swim:gufi": "KN25993200"
+    },
     "wof:country": "US",
     "wof:created": 1748967410,
     "wof:geomhash": "5afbf99c4360a00cfc0890f48cccf304",
@@ -83,12 +97,13 @@
     ],
     "wof:id": 1964731165,
     "wof:involves": [
-      102527513,
-      102530049,
       1159285413,
-      1947304463
+      1947304463,
+      1159289939,
+      102527513,
+      102530049
     ],
-    "wof:lastmodified": 1748967410,
+    "wof:lastmodified": 1748968786,
     "wof:name": "UA2749 (EWR-SFO)",
     "wof:parent_id": 1947304463,
     "wof:placetype": "custom",
