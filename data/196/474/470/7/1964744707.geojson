@@ -2,10 +2,12 @@
   "id": 1964744707,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-06-03",
+    "date:cessation_upper": "2025-06-03",
     "date:inception_lower": "2025-06-03",
     "date:inception_upper": "2025-06-03",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-06-03",
+    "edtf:cessation": "2025-06-03T05:09:00Z",
+    "edtf:inception": "2025-06-03T04:17:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -122.6226995,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "A320",
     "icao:airline": "UAL",
     "icao:base_airline": "AVA",
     "lbl:latitude": 37.617532,
     "lbl:longitude": -122.382384,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527187,
     "sfomuseum:base_flight_id": "20250603-D-AVA-2266",
@@ -39,6 +43,7 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "swim:tail_number": "N489UA",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +58,10 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "101799540",
+      "swim:gufi": "KO00415300"
+    },
     "wof:country": "US",
     "wof:created": 1749054877,
     "wof:geomhash": "3d19e2486afc236330c096bb1f630ba3",
@@ -88,13 +97,14 @@
     ],
     "wof:id": 1964744707,
     "wof:involves": [
+      1947304619,
+      1159285749,
+      1159292085,
       102527187,
       102527513,
-      1159285413,
-      1947304619,
-      1159285749
+      1159285413
     ],
-    "wof:lastmodified": 1749054877,
+    "wof:lastmodified": 1749055177,
     "wof:name": "UA1007 (SFO-MFR)",
     "wof:parent_id": 1947304619,
     "wof:placetype": "custom",

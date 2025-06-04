@@ -2,10 +2,12 @@
   "id": 1964745015,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-06-03",
+    "date:cessation_upper": "2025-06-03",
     "date:inception_lower": "2025-06-03",
     "date:inception_upper": "2025-06-03",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-06-03",
+    "edtf:cessation": "2025-06-03T05:08:38Z",
+    "edtf:inception": "2025-06-03T04:04:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -122.79198650000001,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "A320",
     "icao:airline": "UAL",
     "icao:base_airline": "DLH",
     "lbl:latitude": 37.617908,
     "lbl:longitude": -122.381084,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102533927,
     "sfomuseum:base_flight_id": "20250603-D-DLH-8574",
@@ -39,6 +43,7 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "swim:tail_number": "N426UA",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +58,10 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "101800027",
+      "swim:gufi": "KO02594300"
+    },
     "wof:country": "US",
     "wof:created": 1749054956,
     "wof:geomhash": "ac29143dee46faf8dc4d82fa5cfc7601",
@@ -88,13 +97,14 @@
     ],
     "wof:id": 1964745015,
     "wof:involves": [
-      102533927,
       102527513,
       1159285413,
       1947304603,
-      1159286015
+      1159286015,
+      1159292085,
+      102533927
     ],
-    "wof:lastmodified": 1749054956,
+    "wof:lastmodified": 1749055178,
     "wof:name": "UA2862 (SFO-EUG)",
     "wof:parent_id": 1947304603,
     "wof:placetype": "custom",

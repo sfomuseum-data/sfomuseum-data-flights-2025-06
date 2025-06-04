@@ -2,10 +2,12 @@
   "id": 1964740837,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2025-06-03",
-    "date:inception_upper": "2025-06-03",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-06-03",
+    "date:cessation_lower": "2025-06-04",
+    "date:cessation_upper": "2025-06-04",
+    "date:inception_lower": "2025-06-04",
+    "date:inception_upper": "2025-06-04",
+    "edtf:cessation": "2025-06-04T13:45:00Z",
+    "edtf:inception": "2025-06-04T00:45:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": 14.401222499999996,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B772",
     "icao:airline": "UAL",
     "icao:base_airline": "AVA",
     "lbl:latitude": 37.618057,
     "lbl:longitude": -122.392508,
+    "sfomuseum:aircraft_id": 1159289985,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20250603-A-AVA-2191",
@@ -39,6 +43,9 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route"
+    ],
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +60,10 @@
       1947304069,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "101791079",
+      "swim:gufi": "KO78915300"
+    },
     "wof:country": "US",
     "wof:created": 1749053924,
     "wof:geomhash": "f3115fe3d28c66ab4b94072923e0b1bb",
@@ -92,9 +103,10 @@
       102557783,
       1159285413,
       1947304149,
-      1159285749
+      1159285749,
+      1159289985
     ],
-    "wof:lastmodified": 1749053924,
+    "wof:lastmodified": 1749055157,
     "wof:name": "UA870 (SYD-SFO)",
     "wof:parent_id": 1947304149,
     "wof:placetype": "custom",
