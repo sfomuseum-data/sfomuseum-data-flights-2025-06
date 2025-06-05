@@ -2,10 +2,12 @@
   "id": 1964747811,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-06-04",
+    "date:cessation_upper": "2025-06-04",
     "date:inception_lower": "2025-06-04",
     "date:inception_upper": "2025-06-04",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-06-04",
+    "edtf:cessation": "2025-06-04T16:54:00Z",
+    "edtf:inception": "2025-06-04T15:58:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "DL",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -120.38022649999999,
     "iata:airline": "DL",
     "iata:base_airline": "",
+    "icao:aircraft": "B739",
     "icao:airline": "DAL",
     "icao:base_airline": "AFR",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1377564285,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20250604-A-AFR-2356",
@@ -39,6 +43,7 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "swim:tail_number": "N805DN",
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -53,6 +58,9 @@
       1763588123,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "101918512"
+    },
     "wof:country": "US",
     "wof:created": 1749139759,
     "wof:geomhash": "f16008bc2ad68c6d1bc593247c6c74a9",
@@ -88,13 +96,14 @@
     ],
     "wof:id": 1964747811,
     "wof:involves": [
+      1377564285,
       102527513,
       102533795,
       1159284261,
       1763588251,
       1159283627
     ],
-    "wof:lastmodified": 1749139759,
+    "wof:lastmodified": 1749141514,
     "wof:name": "DL1715 (LAX-SFO)",
     "wof:parent_id": 1763588251,
     "wof:placetype": "custom",
