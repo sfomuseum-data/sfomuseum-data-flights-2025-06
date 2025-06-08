@@ -1,0 +1,72 @@
+{
+  "id": 1964777051,
+  "type": "Feature",
+  "properties": {
+    "date:inception_lower": "2025-06-07",
+    "date:inception_upper": "2025-06-07",
+    "edtf:cessation": "",
+    "edtf:inception": "2025-06-07",
+    "flysfo:actual_timestamp": -1,
+    "flysfo:airline": "WN",
+    "flysfo:date": "2025-06-07",
+    "flysfo:estimated_timestamp": -1,
+    "flysfo:event": "A",
+    "flysfo:flight_number": "WN2902",
+    "flysfo:gate": "",
+    "flysfo:journey": "AUS-SFO",
+    "flysfo:scheduled_timestamp": 1749336300,
+    "flysfo:timestamp": 1749336300,
+    "geom:area": 0,
+    "geom:bbox": "-122.370943,30.206175,-97.643029,37.617990",
+    "geom:latitude": 33.9120825,
+    "geom:longitude": -110.006986,
+    "iata:airline": "WN",
+    "icao:airline": "SWA",
+    "lbl:latitude": 37.61799,
+    "lbl:longitude": -122.370943,
+    "sfomuseum:airline_id": 1159285591,
+    "sfomuseum:arrival_id": 102527513,
+    "sfomuseum:departure_id": 102521851,
+    "sfomuseum:flight_id": "20250607-A-SWA-2902",
+    "sfomuseum:flight_number": [
+      "SWA2902",
+      "WN2902"
+    ],
+    "sfomuseum:placetype": "flight",
+    "src:geom": "flysfo",
+    "wof:belongsto": [],
+    "wof:country": "US",
+    "wof:created": 1749399286,
+    "wof:geomhash": "62f9f5a2734b9c5938b0b415e9e4a515",
+    "wof:hierarchy": [
+      {
+        "custom_id": 1964777051,
+        "flight_id": 1964777051
+      }
+    ],
+    "wof:id": 1964777051,
+    "wof:involves": [
+      102527513,
+      102521851,
+      1159285591,
+      -1
+    ],
+    "wof:lastmodified": 1749399286,
+    "wof:name": "WN2902 (AUS-SFO)",
+    "wof:parent_id": -1,
+    "wof:placetype": "custom",
+    "wof:placetype_alt": [
+      "flight"
+    ],
+    "wof:repo": "sfomuseum-data-flights-2025-06",
+    "wof:superseded_by": [],
+    "wof:supersedes": []
+  },
+  "bbox": [
+    -122.370943,
+    30.206175,
+    -97.643029,
+    37.61799
+  ],
+  "geometry": {"coordinates":[[-97.643029,30.206175],[-122.370943,37.61799]],"type":"MultiPoint"}
+}
