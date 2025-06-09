@@ -1,0 +1,72 @@
+{
+  "id": 1964786705,
+  "type": "Feature",
+  "properties": {
+    "date:inception_lower": "2025-06-08",
+    "date:inception_upper": "2025-06-08",
+    "edtf:cessation": "",
+    "edtf:inception": "2025-06-08",
+    "flysfo:actual_timestamp": -1,
+    "flysfo:airline": "UA",
+    "flysfo:date": "2025-06-08",
+    "flysfo:estimated_timestamp": 1749418680,
+    "flysfo:event": "A",
+    "flysfo:flight_number": "UA3908",
+    "flysfo:gate": "",
+    "flysfo:journey": "PEK-SFO",
+    "flysfo:scheduled_timestamp": 1749418680,
+    "flysfo:timestamp": 1749418680,
+    "geom:area": 0,
+    "geom:bbox": "-122.370943,37.617990,116.586155,40.068469",
+    "geom:latitude": 38.8432295,
+    "geom:longitude": -2.892393999999996,
+    "iata:airline": "UA",
+    "icao:airline": "UAL",
+    "lbl:latitude": 37.61799,
+    "lbl:longitude": -122.370943,
+    "sfomuseum:airline_id": 1159285413,
+    "sfomuseum:arrival_id": 102527513,
+    "sfomuseum:departure_id": 102550367,
+    "sfomuseum:flight_id": "20250608-A-UAL-3908",
+    "sfomuseum:flight_number": [
+      "UAL3908",
+      "UA3908"
+    ],
+    "sfomuseum:placetype": "flight",
+    "src:geom": "flysfo",
+    "wof:belongsto": [],
+    "wof:country": "US",
+    "wof:created": 1749485858,
+    "wof:geomhash": "96cbe57d72475858a8ed1d7cff76fcd0",
+    "wof:hierarchy": [
+      {
+        "custom_id": 1964786705,
+        "flight_id": 1964786705
+      }
+    ],
+    "wof:id": 1964786705,
+    "wof:involves": [
+      102527513,
+      102550367,
+      1159285413,
+      -1
+    ],
+    "wof:lastmodified": 1749485858,
+    "wof:name": "UA3908 (PEK-SFO)",
+    "wof:parent_id": -1,
+    "wof:placetype": "custom",
+    "wof:placetype_alt": [
+      "flight"
+    ],
+    "wof:repo": "sfomuseum-data-flights-2025-06",
+    "wof:superseded_by": [],
+    "wof:supersedes": []
+  },
+  "bbox": [
+    -122.370943,
+    37.61799,
+    116.586155,
+    40.068469
+  ],
+  "geometry": {"coordinates":[[116.586155,40.068469],[-122.370943,37.61799]],"type":"MultiPoint"}
+}
