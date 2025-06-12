@@ -2,10 +2,12 @@
   "id": 1964812859,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2025-06-11",
-    "date:inception_upper": "2025-06-11",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-06-11",
+    "date:cessation_lower": "2025-06-11",
+    "date:cessation_upper": "2025-06-11",
+    "date:inception_lower": "1970-01-01",
+    "date:inception_upper": "1970-01-01",
+    "edtf:cessation": "2025-06-11T10:24:36-07:00",
+    "edtf:inception": "1970-01-01T00:00:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "DL",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -120.38022649999999,
     "iata:airline": "DL",
     "iata:base_airline": "",
+    "icao:aircraft": "B739",
     "icao:airline": "DAL",
     "icao:base_airline": "ITY",
     "lbl:latitude": 37.614759,
     "lbl:longitude": -122.382707,
+    "sfomuseum:aircraft_id": 1377564285,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20250611-A-ITY-5814",
@@ -39,6 +43,10 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-approach"
+    ],
+    "swim:tail_number": "N902DN",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -92,9 +100,10 @@
       102533795,
       1159284261,
       1947304679,
-      1763699293
+      1763699293,
+      1377564285
     ],
-    "wof:lastmodified": 1749744594,
+    "wof:lastmodified": 1749746347,
     "wof:name": "DL1559 (LAX-SFO)",
     "wof:parent_id": 1947304679,
     "wof:placetype": "custom",
