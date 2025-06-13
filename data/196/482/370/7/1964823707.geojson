@@ -2,10 +2,12 @@
   "id": 1964823707,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2025-06-12",
-    "date:inception_upper": "2025-06-12",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-06-12",
+    "date:cessation_lower": "2025-06-13",
+    "date:cessation_upper": "2025-06-13",
+    "date:inception_lower": "2025-06-13",
+    "date:inception_upper": "2025-06-13",
+    "edtf:cessation": "2025-06-13T13:41:00Z",
+    "edtf:inception": "2025-06-13T01:01:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2025-06-12",
@@ -21,9 +23,11 @@
     "geom:latitude": 36.686867,
     "geom:longitude": 9.012156999999995,
     "iata:airline": "UA",
+    "icao:aircraft": "B77W",
     "icao:airline": "UAL",
     "lbl:latitude": 37.617615,
     "lbl:longitude": -122.390247,
+    "sfomuseum:aircraft_id": 1159289993,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102541685,
@@ -34,6 +38,10 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route"
+    ],
+    "swim:tail_number": "N2846U",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +56,10 @@
       1947304069,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "102673337",
+      "swim:gufi": "KO76972500"
+    },
     "wof:country": "US",
     "wof:created": 1749840443,
     "wof:geomhash": "d46bcc8d1d94e68df95be799ac6a3b4c",
@@ -83,12 +95,13 @@
     ],
     "wof:id": 1964823707,
     "wof:involves": [
+      1159289993,
       102527513,
       102541685,
       1159285413,
       1947304141
     ],
-    "wof:lastmodified": 1749840443,
+    "wof:lastmodified": 1749842064,
     "wof:name": "UA190 (NRT-SFO)",
     "wof:parent_id": 1947304141,
     "wof:placetype": "custom",

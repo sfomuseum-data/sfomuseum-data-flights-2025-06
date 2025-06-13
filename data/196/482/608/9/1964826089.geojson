@@ -2,10 +2,12 @@
   "id": 1964826089,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-06-12",
+    "date:cessation_upper": "2025-06-12",
     "date:inception_lower": "2025-06-12",
     "date:inception_upper": "2025-06-12",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-06-12",
+    "edtf:cessation": "2025-06-12T22:58:00Z",
+    "edtf:inception": "2025-06-12T19:17:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AS",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -105.1326535,
     "iata:airline": "AS",
     "iata:base_airline": "",
+    "icao:aircraft": "B739",
     "icao:airline": "ASA",
     "icao:base_airline": "HAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1377564285,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102533631,
     "sfomuseum:base_flight_id": "20250612-D-HAL-7000",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N448AS",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +62,10 @@
       1947304259,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "102627191",
+      "swim:gufi": "KO64573500"
+    },
     "wof:country": "US",
     "wof:created": 1749841115,
     "wof:geomhash": "7a75cc81bf790964b92a4927d3978f50",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 1964826089,
     "wof:involves": [
+      1947304271,
+      1159284489,
+      1377564285,
       102533631,
       102527513,
-      1159283813,
-      1947304271,
-      1159284489
+      1159283813
     ],
-    "wof:lastmodified": 1749841115,
+    "wof:lastmodified": 1749842071,
     "wof:name": "AS598 (SFO-ORD)",
     "wof:parent_id": 1947304271,
     "wof:placetype": "custom",
