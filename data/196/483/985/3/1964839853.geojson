@@ -2,10 +2,12 @@
   "id": 1964839853,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-06-13",
+    "date:cessation_upper": "2025-06-13",
     "date:inception_lower": "2025-06-13",
     "date:inception_upper": "2025-06-13",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-06-13",
+    "edtf:cessation": "2025-06-13T18:12:00Z",
+    "edtf:inception": "2025-06-13T02:36:53-07:00",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -122.3376055,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "A319",
     "icao:airline": "UAL",
     "icao:base_airline": "AAR",
     "lbl:latitude": 37.61756,
     "lbl:longitude": -122.381052,
+    "sfomuseum:aircraft_id": 1159289407,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102533269,
     "sfomuseum:base_flight_id": "20250613-D-AAR-6306",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N803UA",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,10 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "102706706",
+      "swim:gufi": "KO47319600"
+    },
     "wof:country": "US",
     "wof:created": 1749918981,
     "wof:geomhash": "4036ee3c983703867dbe0486453848b1",
@@ -92,9 +106,10 @@
       102527513,
       1159285413,
       1947304609,
-      1159283917
+      1159283917,
+      1159289407
     ],
-    "wof:lastmodified": 1749918981,
+    "wof:lastmodified": 1749919286,
     "wof:name": "UA1417 (SFO-SEA)",
     "wof:parent_id": 1947304609,
     "wof:placetype": "custom",
