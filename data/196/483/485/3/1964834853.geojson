@@ -1,0 +1,72 @@
+{
+  "id": 1964834853,
+  "type": "Feature",
+  "properties": {
+    "date:inception_lower": "2025-06-13",
+    "date:inception_upper": "2025-06-13",
+    "edtf:cessation": "",
+    "edtf:inception": "2025-06-13",
+    "flysfo:actual_timestamp": -1,
+    "flysfo:airline": "WN",
+    "flysfo:date": "2025-06-13",
+    "flysfo:estimated_timestamp": -1,
+    "flysfo:event": "A",
+    "flysfo:flight_number": "WN849",
+    "flysfo:gate": "",
+    "flysfo:journey": "LGB-SFO",
+    "flysfo:scheduled_timestamp": 1749868800,
+    "flysfo:timestamp": 1749868800,
+    "geom:area": 0,
+    "geom:bbox": "-122.370943,33.814039,-118.148993,37.617990",
+    "geom:latitude": 35.7160145,
+    "geom:longitude": -120.259968,
+    "iata:airline": "WN",
+    "icao:airline": "SWA",
+    "lbl:latitude": 37.61799,
+    "lbl:longitude": -122.370943,
+    "sfomuseum:airline_id": 1159285591,
+    "sfomuseum:arrival_id": 102527513,
+    "sfomuseum:departure_id": 102528985,
+    "sfomuseum:flight_id": "20250613-A-SWA-849",
+    "sfomuseum:flight_number": [
+      "SWA849",
+      "WN849"
+    ],
+    "sfomuseum:placetype": "flight",
+    "src:geom": "flysfo",
+    "wof:belongsto": [],
+    "wof:country": "US",
+    "wof:created": 1749917754,
+    "wof:geomhash": "9eec8aef23fa16d55a8c3ae494470e8a",
+    "wof:hierarchy": [
+      {
+        "custom_id": 1964834853,
+        "flight_id": 1964834853
+      }
+    ],
+    "wof:id": 1964834853,
+    "wof:involves": [
+      102527513,
+      102528985,
+      1159285591,
+      -1
+    ],
+    "wof:lastmodified": 1749917754,
+    "wof:name": "WN849 (LGB-SFO)",
+    "wof:parent_id": -1,
+    "wof:placetype": "custom",
+    "wof:placetype_alt": [
+      "flight"
+    ],
+    "wof:repo": "sfomuseum-data-flights-2025-06",
+    "wof:superseded_by": [],
+    "wof:supersedes": []
+  },
+  "bbox": [
+    -122.370943,
+    33.814039,
+    -118.148993,
+    37.61799
+  ],
+  "geometry": {"coordinates":[[-118.148993,33.814039],[-122.370943,37.61799]],"type":"MultiPoint"}
+}

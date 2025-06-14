@@ -1,0 +1,72 @@
+{
+  "id": 1964838189,
+  "type": "Feature",
+  "properties": {
+    "date:inception_lower": "2025-06-13",
+    "date:inception_upper": "2025-06-13",
+    "edtf:cessation": "",
+    "edtf:inception": "2025-06-13",
+    "flysfo:actual_timestamp": -1,
+    "flysfo:airline": "DL",
+    "flysfo:date": "2025-06-13",
+    "flysfo:estimated_timestamp": 1749835860,
+    "flysfo:event": "D",
+    "flysfo:flight_number": "DL9871",
+    "flysfo:gate": "",
+    "flysfo:journey": "SFO-BOS",
+    "flysfo:scheduled_timestamp": 1749835860,
+    "flysfo:timestamp": 1749835860,
+    "geom:area": 0,
+    "geom:bbox": "-122.370943,37.617990,-71.014750,42.362322",
+    "geom:latitude": 39.990156,
+    "geom:longitude": -96.6928465,
+    "iata:airline": "DL",
+    "icao:airline": "DAL",
+    "lbl:latitude": 37.61799,
+    "lbl:longitude": -122.370943,
+    "sfomuseum:airline_id": 1159284261,
+    "sfomuseum:arrival_id": 102530741,
+    "sfomuseum:departure_id": 102527513,
+    "sfomuseum:flight_id": "20250613-D-DAL-9871",
+    "sfomuseum:flight_number": [
+      "DAL9871",
+      "DL9871"
+    ],
+    "sfomuseum:placetype": "flight",
+    "src:geom": "flysfo",
+    "wof:belongsto": [],
+    "wof:country": "US",
+    "wof:created": 1749918583,
+    "wof:geomhash": "92fb504f17f3373e6b03bb6769f65d8a",
+    "wof:hierarchy": [
+      {
+        "custom_id": 1964838189,
+        "flight_id": 1964838189
+      }
+    ],
+    "wof:id": 1964838189,
+    "wof:involves": [
+      102530741,
+      102527513,
+      1159284261,
+      -1
+    ],
+    "wof:lastmodified": 1749918583,
+    "wof:name": "DL9871 (SFO-BOS)",
+    "wof:parent_id": -1,
+    "wof:placetype": "custom",
+    "wof:placetype_alt": [
+      "flight"
+    ],
+    "wof:repo": "sfomuseum-data-flights-2025-06",
+    "wof:superseded_by": [],
+    "wof:supersedes": []
+  },
+  "bbox": [
+    -122.370943,
+    37.61799,
+    -71.01475,
+    42.362322
+  ],
+  "geometry": {"coordinates":[[-122.370943,37.61799],[-71.01475,42.362322]],"type":"MultiPoint"}
+}
