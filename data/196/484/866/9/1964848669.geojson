@@ -2,10 +2,12 @@
   "id": 1964848669,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-06-15",
+    "date:cessation_upper": "2025-06-15",
     "date:inception_lower": "2025-06-14",
     "date:inception_upper": "2025-06-14",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-06-14",
+    "edtf:cessation": "2025-06-15T02:28:38Z",
+    "edtf:inception": "2025-06-14T11:34:23-07:00",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "WN",
     "flysfo:date": "2025-06-14",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.780291500000004,
     "geom:longitude": -120.38022649999999,
     "iata:airline": "WN",
+    "icao:aircraft": "B737",
     "icao:airline": "SWA",
     "lbl:latitude": 37.616838,
     "lbl:longitude": -122.380969,
+    "sfomuseum:aircraft_id": 1159289869,
     "sfomuseum:airline_id": 1159285591,
     "sfomuseum:arrival_id": 102533795,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N931WN",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +58,10 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "102838068",
+      "swim:gufi": "KO85676700"
+    },
     "wof:country": "US",
     "wof:created": 1750005193,
     "wof:geomhash": "602be2a828e3460cadf44be5b1c2e36b",
@@ -83,12 +97,13 @@
     ],
     "wof:id": 1964848669,
     "wof:involves": [
+      1947304621,
+      1159289869,
       102533795,
       102527513,
-      1159285591,
-      1947304621
+      1159285591
     ],
-    "wof:lastmodified": 1750005193,
+    "wof:lastmodified": 1750005532,
     "wof:name": "WN3526 (SFO-LAX)",
     "wof:parent_id": 1947304621,
     "wof:placetype": "custom",

@@ -2,10 +2,12 @@
   "id": 1964844089,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-06-14",
+    "date:cessation_upper": "2025-06-14",
     "date:inception_lower": "2025-06-14",
     "date:inception_upper": "2025-06-14",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-06-14",
+    "edtf:cessation": "2025-06-14T08:13:14Z",
+    "edtf:inception": "2025-06-14T06:52:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "SY",
     "flysfo:date": "2025-06-14",
@@ -35,6 +37,9 @@
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "102766698"
+    },
     "wof:country": "US",
     "wof:created": 1750004070,
     "wof:geomhash": "3af422147b92e6fa9912d38a57ea404a",
@@ -51,7 +56,7 @@
       1159285227,
       -1
     ],
-    "wof:lastmodified": 1750004070,
+    "wof:lastmodified": 1750005546,
     "wof:name": "SY8723 (PDX-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
