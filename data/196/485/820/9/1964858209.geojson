@@ -2,10 +2,12 @@
   "id": 1964858209,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-06-15",
+    "date:cessation_upper": "2025-06-15",
     "date:inception_lower": "2025-06-15",
     "date:inception_upper": "2025-06-15",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-06-15",
+    "edtf:cessation": "2025-06-15T05:20:30Z",
+    "edtf:inception": "2025-06-15T04:30:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -53,6 +55,9 @@
       1947304447,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "102850904"
+    },
     "wof:country": "US",
     "wof:created": 1750091826,
     "wof:geomhash": "3d19e2486afc236330c096bb1f630ba3",
@@ -94,7 +99,7 @@
       1947304491,
       1159283697
     ],
-    "wof:lastmodified": 1750091826,
+    "wof:lastmodified": 1750092168,
     "wof:name": "UA1007 (SFO-MFR)",
     "wof:parent_id": 1947304491,
     "wof:placetype": "custom",

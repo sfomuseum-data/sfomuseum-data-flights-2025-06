@@ -2,10 +2,12 @@
   "id": 1964856633,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2025-06-15",
-    "date:inception_upper": "2025-06-15",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-06-15",
+    "date:cessation_lower": "2025-06-16",
+    "date:cessation_upper": "2025-06-16",
+    "date:inception_lower": "2025-06-16",
+    "date:inception_upper": "2025-06-16",
+    "edtf:cessation": "2025-06-16T04:54:00Z",
+    "edtf:inception": "2025-06-16T01:51:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "DL",
     "flysfo:date": "2025-06-15",
@@ -21,9 +23,11 @@
     "geom:latitude": 41.2506555,
     "geom:longitude": -107.78563,
     "iata:airline": "DL",
+    "icao:aircraft": "A320",
     "icao:airline": "DAL",
     "lbl:latitude": 37.614792,
     "lbl:longitude": -122.382166,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102531131,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N343NW",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +58,9 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:gufi": "KO02341200"
+    },
     "wof:country": "US",
     "wof:created": 1750091420,
     "wof:geomhash": "bbdc3c5edf2b2678c807f6144214d82c",
@@ -83,12 +96,13 @@
     ],
     "wof:id": 1964856633,
     "wof:involves": [
+      1159292085,
       102531131,
       102527513,
       1159284261,
       1947304677
     ],
-    "wof:lastmodified": 1750091420,
+    "wof:lastmodified": 1750092160,
     "wof:name": "DL756 (SFO-MSP)",
     "wof:parent_id": 1947304677,
     "wof:placetype": "custom",

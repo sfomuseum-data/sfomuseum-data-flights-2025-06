@@ -2,10 +2,12 @@
   "id": 1964858447,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-06-16",
+    "date:cessation_upper": "2025-06-16",
     "date:inception_lower": "2025-06-15",
     "date:inception_upper": "2025-06-15",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-06-15",
+    "edtf:cessation": "2025-06-16T01:13:00Z",
+    "edtf:inception": "2025-06-15T10:08:51-07:00",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -120.1186115,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "A319",
     "icao:airline": "UAL",
     "icao:base_airline": "ACA",
     "lbl:latitude": 37.619124,
     "lbl:longitude": -122.383949,
+    "sfomuseum:aircraft_id": 1159289407,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102534161,
     "sfomuseum:base_flight_id": "20250615-D-ACA-4332",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N833UA",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,10 @@
       1947304447,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "102914149",
+      "swim:gufi": "KO74587100"
+    },
     "wof:country": "US",
     "wof:created": 1750091887,
     "wof:geomhash": "b700d5ae3794da4176af6b85f6cd6669",
@@ -92,9 +106,10 @@
       102527513,
       1159285413,
       1947304523,
-      1159283597
+      1159283597,
+      1159289407
     ],
-    "wof:lastmodified": 1750091887,
+    "wof:lastmodified": 1750092170,
     "wof:name": "UA2216 (SFO-SNA)",
     "wof:parent_id": 1947304523,
     "wof:placetype": "custom",
