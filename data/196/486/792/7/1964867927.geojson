@@ -2,10 +2,12 @@
   "id": 1964867927,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-06-17",
+    "date:cessation_upper": "2025-06-17",
     "date:inception_lower": "2025-06-16",
     "date:inception_upper": "2025-06-16",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-06-16",
+    "edtf:cessation": "2025-06-17T11:35:00Z",
+    "edtf:inception": "2025-06-16T16:51:56-07:00",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -99.9123225,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B39M",
     "icao:airline": "UAL",
     "icao:base_airline": "ETH",
     "lbl:latitude": 37.618149,
     "lbl:longitude": -122.381669,
+    "sfomuseum:aircraft_id": 1528104577,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102528817,
     "sfomuseum:base_flight_id": "20250616-D-ETH-1359",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N37560",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,9 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:gufi": "KO14904300"
+    },
     "wof:country": "US",
     "wof:created": 1750178179,
     "wof:geomhash": "1c4ce661f6692034a082b31062a17f5e",
@@ -92,9 +105,10 @@
       102527513,
       1159285413,
       1947304613,
-      1159284341
+      1159284341,
+      1528104577
     ],
-    "wof:lastmodified": 1750178179,
+    "wof:lastmodified": 1750178492,
     "wof:name": "UA1115 (SFO-IAD)",
     "wof:parent_id": 1947304613,
     "wof:placetype": "custom",

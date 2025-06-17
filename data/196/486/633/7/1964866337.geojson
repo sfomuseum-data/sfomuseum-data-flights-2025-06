@@ -2,10 +2,12 @@
   "id": 1964866337,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-06-17",
+    "date:cessation_upper": "2025-06-17",
     "date:inception_lower": "2025-06-16",
     "date:inception_upper": "2025-06-16",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-06-16",
+    "edtf:cessation": "2025-06-17T00:29:08Z",
+    "edtf:inception": "2025-06-16T21:40:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "DL",
     "flysfo:date": "2025-06-16",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.231919500000004,
     "geom:longitude": -109.610733,
     "iata:airline": "DL",
+    "icao:aircraft": "B752",
     "icao:airline": "DAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289939,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102525799,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N651DL",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +57,10 @@
       1947304259,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "102983957",
+      "swim:gufi": "KO74331200"
+    },
     "wof:country": "US",
     "wof:created": 1750177792,
     "wof:geomhash": "a08c5b1a6c329f228ec453404f254a51",
@@ -83,12 +96,13 @@
     ],
     "wof:id": 1964866337,
     "wof:involves": [
-      102525799,
-      102527513,
       1159284261,
-      1947304265
+      1947304265,
+      1159289939,
+      102525799,
+      102527513
     ],
-    "wof:lastmodified": 1750177792,
+    "wof:lastmodified": 1750178488,
     "wof:name": "DL8963 (SFO-DAL)",
     "wof:parent_id": 1947304265,
     "wof:placetype": "custom",
