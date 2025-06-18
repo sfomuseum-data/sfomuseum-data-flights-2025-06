@@ -2,10 +2,12 @@
   "id": 1964872505,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2025-06-17",
-    "date:inception_upper": "2025-06-17",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-06-17",
+    "date:cessation_lower": "2025-06-18",
+    "date:cessation_upper": "2025-06-18",
+    "date:inception_lower": "2025-06-18",
+    "date:inception_upper": "2025-06-18",
+    "edtf:cessation": "2025-06-17T17:57:30-07:00",
+    "edtf:inception": "2025-06-18T07:00:45Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "WN",
     "flysfo:date": "2025-06-17",
@@ -21,9 +23,11 @@
     "geom:latitude": 33.0247425,
     "geom:longitude": -101.83923999999999,
     "iata:airline": "WN",
+    "icao:aircraft": "B737",
     "icao:airline": "SWA",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289869,
     "sfomuseum:airline_id": 1159285591,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102533657,
@@ -34,7 +38,16 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N257WN",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:gufi": "KL09463400"
+    },
     "wof:country": "US",
     "wof:created": 1750263361,
     "wof:geomhash": "5fe9a4073f558f5d433cae4f846ab71e",
@@ -49,9 +62,9 @@
       102527513,
       102533657,
       1159285591,
-      -1
+      1159289869
     ],
-    "wof:lastmodified": 1750263361,
+    "wof:lastmodified": 1750264818,
     "wof:name": "WN636 (MCO-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

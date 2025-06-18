@@ -2,10 +2,12 @@
   "id": 1964877247,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-06-17",
+    "date:cessation_upper": "2025-06-17",
     "date:inception_lower": "2025-06-17",
     "date:inception_upper": "2025-06-17",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-06-17",
+    "edtf:cessation": "2025-06-17T05:31:06Z",
+    "edtf:inception": "2025-06-17T04:40:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -122.6226995,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B738",
     "icao:airline": "UAL",
     "icao:base_airline": "AVA",
     "lbl:latitude": 37.617421,
     "lbl:longitude": -122.380916,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527187,
     "sfomuseum:base_flight_id": "20250617-D-AVA-2266",
@@ -53,6 +57,10 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "103003972",
+      "swim:gufi": "KO06254300"
+    },
     "wof:country": "US",
     "wof:created": 1750264531,
     "wof:geomhash": "3d19e2486afc236330c096bb1f630ba3",
@@ -88,13 +96,14 @@
     ],
     "wof:id": 1964877247,
     "wof:involves": [
+      1159285749,
+      1159289871,
       102527187,
       102527513,
       1159285413,
-      1947304617,
-      1159285749
+      1947304617
     ],
-    "wof:lastmodified": 1750264531,
+    "wof:lastmodified": 1750264831,
     "wof:name": "UA1007 (SFO-MFR)",
     "wof:parent_id": 1947304617,
     "wof:placetype": "custom",

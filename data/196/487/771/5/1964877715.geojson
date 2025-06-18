@@ -2,10 +2,12 @@
   "id": 1964877715,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-06-17",
+    "date:cessation_upper": "2025-06-17",
     "date:inception_lower": "2025-06-17",
     "date:inception_upper": "2025-06-17",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-06-17",
+    "edtf:cessation": "2025-06-17T12:21:00Z",
+    "edtf:inception": "2025-06-17T06:51:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -98.2742345,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B752",
     "icao:airline": "UAL",
     "icao:base_airline": "ANZ",
     "lbl:latitude": 37.621173,
     "lbl:longitude": -122.390131,
+    "sfomuseum:aircraft_id": 1159289939,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102530049,
     "sfomuseum:base_flight_id": "20250617-D-ANZ-9109",
@@ -53,6 +57,10 @@
       1947304447,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "103006090",
+      "swim:gufi": "KO16041300"
+    },
     "wof:country": "US",
     "wof:created": 1750264644,
     "wof:geomhash": "5f8ba203e186fe379420b736bcf5de4f",
@@ -88,13 +96,14 @@
     ],
     "wof:id": 1964877715,
     "wof:involves": [
-      102530049,
       102527513,
       1159285413,
       1947304491,
-      1159283697
+      1159283697,
+      1159289939,
+      102530049
     ],
-    "wof:lastmodified": 1750264644,
+    "wof:lastmodified": 1750264832,
     "wof:name": "UA567 (SFO-EWR)",
     "wof:parent_id": 1947304491,
     "wof:placetype": "custom",

@@ -2,10 +2,12 @@
   "id": 1964872767,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-06-18",
+    "date:cessation_upper": "2025-06-18",
     "date:inception_lower": "2025-06-17",
     "date:inception_upper": "2025-06-17",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-06-17",
+    "edtf:cessation": "2025-06-18T00:33:54Z",
+    "edtf:inception": "2025-06-17T23:29:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2025-06-17",
@@ -21,9 +23,11 @@
     "geom:latitude": 39.9938205,
     "geom:longitude": -122.6226995,
     "iata:airline": "UA",
+    "icao:aircraft": "B738",
     "icao:airline": "UAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102527187,
@@ -34,7 +38,13 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route"
+    ],
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "103162681"
+    },
     "wof:country": "US",
     "wof:created": 1750263428,
     "wof:geomhash": "10bf27aabb5200ef4863b11f6c2a5d60",
@@ -49,9 +59,9 @@
       102527513,
       102527187,
       1159285413,
-      -1
+      1159289871
     ],
-    "wof:lastmodified": 1750263428,
+    "wof:lastmodified": 1750264819,
     "wof:name": "UA1554 (MFR-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

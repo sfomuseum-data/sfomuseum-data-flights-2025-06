@@ -2,10 +2,12 @@
   "id": 1964877027,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-06-17",
+    "date:cessation_upper": "2025-06-17",
     "date:inception_lower": "2025-06-17",
     "date:inception_upper": "2025-06-17",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-06-17",
+    "edtf:cessation": "2025-06-17T20:16:00Z",
+    "edtf:inception": "2025-06-17T16:39:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "WN",
     "flysfo:date": "2025-06-17",
@@ -21,9 +23,11 @@
     "geom:latitude": 39.702760999999995,
     "geom:longitude": -105.058423,
     "iata:airline": "WN",
+    "icao:aircraft": "B737",
     "icao:airline": "SWA",
     "lbl:latitude": 37.61705,
     "lbl:longitude": -122.380838,
+    "sfomuseum:aircraft_id": 1159289869,
     "sfomuseum:airline_id": 1159285591,
     "sfomuseum:arrival_id": 102531205,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N902WN",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +57,10 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "103037834",
+      "swim:gufi": "KO50417300"
+    },
     "wof:country": "US",
     "wof:created": 1750264477,
     "wof:geomhash": "b0d868dab19a217943f06d97e1bf7ce6",
@@ -83,12 +96,13 @@
     ],
     "wof:id": 1964877027,
     "wof:involves": [
+      1159289869,
       102531205,
       102527513,
       1159285591,
       1947304601
     ],
-    "wof:lastmodified": 1750264477,
+    "wof:lastmodified": 1750264830,
     "wof:name": "WN3831 (SFO-MDW)",
     "wof:parent_id": 1947304601,
     "wof:placetype": "custom",
