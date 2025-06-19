@@ -2,10 +2,12 @@
   "id": 1964886925,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-06-18",
+    "date:cessation_upper": "2025-06-18",
     "date:inception_lower": "2025-06-18",
     "date:inception_upper": "2025-06-18",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-06-18",
+    "edtf:cessation": "2025-06-18T13:41:00Z",
+    "edtf:inception": "2025-06-18T12:51:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2025-06-18",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.780291500000004,
     "geom:longitude": -120.38022649999999,
     "iata:airline": "UA",
+    "icao:aircraft": "B77W",
     "icao:airline": "UAL",
     "lbl:latitude": 37.620818,
     "lbl:longitude": -122.389182,
+    "sfomuseum:aircraft_id": 1159289993,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102533795,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N2748U",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +57,10 @@
       1947304447,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "103182857",
+      "swim:gufi": "KO32210400"
+    },
     "wof:country": "US",
     "wof:created": 1750351013,
     "wof:geomhash": "602be2a828e3460cadf44be5b1c2e36b",
@@ -83,12 +96,13 @@
     ],
     "wof:id": 1964886925,
     "wof:involves": [
+      1947304455,
+      1159289993,
       102533795,
       102527513,
-      1159285413,
-      1947304455
+      1159285413
     ],
-    "wof:lastmodified": 1750351013,
+    "wof:lastmodified": 1750351251,
     "wof:name": "UA3869 (SFO-LAX)",
     "wof:parent_id": 1947304455,
     "wof:placetype": "custom",
