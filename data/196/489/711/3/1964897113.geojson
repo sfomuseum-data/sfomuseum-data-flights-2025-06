@@ -2,10 +2,12 @@
   "id": 1964897113,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-06-20",
+    "date:cessation_upper": "2025-06-20",
     "date:inception_lower": "2025-06-19",
     "date:inception_upper": "2025-06-19",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-06-19",
+    "edtf:cessation": "2025-06-20T10:19:00Z",
+    "edtf:inception": "2025-06-19T16:57:24-07:00",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2025-06-19",
@@ -21,9 +23,11 @@
     "geom:latitude": 18.808995,
     "geom:longitude": -61.1854715,
     "iata:airline": "UA",
+    "icao:aircraft": "B772",
     "icao:airline": "UAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289985,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102533631,
     "sfomuseum:departure_id": 102527513,
@@ -34,7 +38,16 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N771UA",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:gufi": "KO18191600"
+    },
     "wof:country": "US",
     "wof:created": 1750437560,
     "wof:geomhash": "f7b726ae54aa9222cfb9d243d2e793d0",
@@ -46,12 +59,12 @@
     ],
     "wof:id": 1964897113,
     "wof:involves": [
+      1159289985,
       102533631,
       102527513,
-      1159285413,
-      -1
+      1159285413
     ],
-    "wof:lastmodified": 1750437560,
+    "wof:lastmodified": 1750437738,
     "wof:name": "UA8269 (SFO-ORD)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

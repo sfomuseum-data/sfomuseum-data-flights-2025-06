@@ -2,10 +2,12 @@
   "id": 1964891711,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-06-20",
+    "date:cessation_upper": "2025-06-20",
     "date:inception_lower": "2025-06-19",
     "date:inception_upper": "2025-06-19",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-06-19",
+    "edtf:cessation": "2025-06-20T00:04:16Z",
+    "edtf:inception": "2025-06-19T23:48:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "EK",
     "flysfo:date": "2025-06-19",
@@ -21,9 +23,11 @@
     "geom:latitude": 31.4340265,
     "geom:longitude": -33.504103,
     "iata:airline": "EK",
+    "icao:aircraft": "A388",
     "icao:airline": "UAE",
     "lbl:latitude": 37.612674,
     "lbl:longitude": -122.389174,
+    "sfomuseum:aircraft_id": 1159289437,
     "sfomuseum:airline_id": 1159284333,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102558433,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "A6EUI",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +57,9 @@
       1947304069,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "103340765"
+    },
     "wof:country": "US",
     "wof:created": 1750436236,
     "wof:geomhash": "8eef79dee45c47eff2935879475b5fae",
@@ -83,12 +95,13 @@
     ],
     "wof:id": 1964891711,
     "wof:involves": [
+      1947304085,
+      1159289437,
       102527513,
       102558433,
-      1159284333,
-      1947304085
+      1159284333
     ],
-    "wof:lastmodified": 1750436236,
+    "wof:lastmodified": 1750437714,
     "wof:name": "EK225 (DXB-SFO)",
     "wof:parent_id": 1947304085,
     "wof:placetype": "custom",

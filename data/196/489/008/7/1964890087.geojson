@@ -2,10 +2,12 @@
   "id": 1964890087,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2025-06-19",
-    "date:inception_upper": "2025-06-19",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-06-19",
+    "date:cessation_lower": "2025-06-20",
+    "date:cessation_upper": "2025-06-20",
+    "date:inception_lower": "2025-06-20",
+    "date:inception_upper": "2025-06-20",
+    "edtf:cessation": "2025-06-19T21:15:11-07:00",
+    "edtf:inception": "2025-06-20T05:37:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "DL",
     "flysfo:date": "2025-06-19",
@@ -21,9 +23,11 @@
     "geom:latitude": 39.130638000000005,
     "geom:longitude": -98.07939400000001,
     "iata:airline": "DL",
+    "icao:aircraft": "B763",
     "icao:airline": "DAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289965,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102534365,
@@ -34,7 +38,16 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N179DN",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:gufi": "KN03961601"
+    },
     "wof:country": "US",
     "wof:created": 1750435839,
     "wof:geomhash": "ba4d31d1826c6198b5ffa8fdb1249c5d",
@@ -46,12 +59,12 @@
     ],
     "wof:id": 1964890087,
     "wof:involves": [
+      1159289965,
       102527513,
       102534365,
-      1159284261,
-      -1
+      1159284261
     ],
-    "wof:lastmodified": 1750435839,
+    "wof:lastmodified": 1750437700,
     "wof:name": "DL1732 (JFK-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
