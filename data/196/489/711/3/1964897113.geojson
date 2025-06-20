@@ -1,0 +1,72 @@
+{
+  "id": 1964897113,
+  "type": "Feature",
+  "properties": {
+    "date:inception_lower": "2025-06-19",
+    "date:inception_upper": "2025-06-19",
+    "edtf:cessation": "",
+    "edtf:inception": "2025-06-19",
+    "flysfo:actual_timestamp": -1,
+    "flysfo:airline": "UA",
+    "flysfo:date": "2025-06-19",
+    "flysfo:estimated_timestamp": 1750400100,
+    "flysfo:event": "D",
+    "flysfo:flight_number": "UA8269",
+    "flysfo:gate": "",
+    "flysfo:journey": "SFO-ORD",
+    "flysfo:scheduled_timestamp": 1750400100,
+    "flysfo:timestamp": 1750400100,
+    "geom:area": 0,
+    "geom:bbox": "-122.370943,0.000000,0.000000,37.617990",
+    "geom:latitude": 18.808995,
+    "geom:longitude": -61.1854715,
+    "iata:airline": "UA",
+    "icao:airline": "UAL",
+    "lbl:latitude": 37.61799,
+    "lbl:longitude": -122.370943,
+    "sfomuseum:airline_id": 1159285413,
+    "sfomuseum:arrival_id": 102533631,
+    "sfomuseum:departure_id": 102527513,
+    "sfomuseum:flight_id": "20250619-D-UAL-8269",
+    "sfomuseum:flight_number": [
+      "UAL8269",
+      "UA8269"
+    ],
+    "sfomuseum:placetype": "flight",
+    "src:geom": "flysfo",
+    "wof:belongsto": [],
+    "wof:country": "US",
+    "wof:created": 1750437560,
+    "wof:geomhash": "f7b726ae54aa9222cfb9d243d2e793d0",
+    "wof:hierarchy": [
+      {
+        "custom_id": 1964897113,
+        "flight_id": 1964897113
+      }
+    ],
+    "wof:id": 1964897113,
+    "wof:involves": [
+      102533631,
+      102527513,
+      1159285413,
+      -1
+    ],
+    "wof:lastmodified": 1750437560,
+    "wof:name": "UA8269 (SFO-ORD)",
+    "wof:parent_id": -1,
+    "wof:placetype": "custom",
+    "wof:placetype_alt": [
+      "flight"
+    ],
+    "wof:repo": "sfomuseum-data-flights-2025-06",
+    "wof:superseded_by": [],
+    "wof:supersedes": []
+  },
+  "bbox": [
+    -122.370943,
+    0,
+    0,
+    37.61799
+  ],
+  "geometry": {"coordinates":[[-122.370943,37.61799],[0,0]],"type":"MultiPoint"}
+}
