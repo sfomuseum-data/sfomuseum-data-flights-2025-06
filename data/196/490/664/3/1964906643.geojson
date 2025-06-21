@@ -2,10 +2,12 @@
   "id": 1964906643,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-06-20",
+    "date:cessation_upper": "2025-06-20",
     "date:inception_lower": "2025-06-20",
     "date:inception_upper": "2025-06-20",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-06-20",
+    "edtf:cessation": "2025-06-20T17:37:19Z",
+    "edtf:inception": "2025-06-20T01:49:16-07:00",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -122.7750715,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B38M",
     "icao:airline": "UAL",
     "icao:base_airline": "ACA",
     "lbl:latitude": 37.620164,
     "lbl:longitude": -122.387194,
+    "sfomuseum:aircraft_id": 1528104575,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102555307,
     "sfomuseum:base_flight_id": "20250620-D-ACA-5113",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N37318",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -53,6 +63,10 @@
       1914600841,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "103303582",
+      "swim:gufi": "KO45166600"
+    },
     "wof:country": "US",
     "wof:created": 1750523891,
     "wof:geomhash": "af4ccf784d832b160f78d13fe8b8589a",
@@ -88,13 +102,14 @@
     ],
     "wof:id": 1964906643,
     "wof:involves": [
-      102555307,
-      102527513,
       1159285413,
       1930457221,
-      1159283597
+      1159283597,
+      1528104575,
+      102555307,
+      102527513
     ],
-    "wof:lastmodified": 1750523891,
+    "wof:lastmodified": 1750524058,
     "wof:name": "UA784 (SFO-YVR)",
     "wof:parent_id": 1930457221,
     "wof:placetype": "custom",

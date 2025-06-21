@@ -2,10 +2,12 @@
   "id": 1964906157,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-06-21",
+    "date:cessation_upper": "2025-06-21",
     "date:inception_lower": "2025-06-20",
     "date:inception_upper": "2025-06-20",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-06-20",
+    "edtf:cessation": "2025-06-21T02:32:00Z",
+    "edtf:inception": "2025-06-20T21:50:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2025-06-20",
@@ -21,9 +23,11 @@
     "geom:latitude": 29.256470999999998,
     "geom:longitude": -139.40440999999998,
     "iata:airline": "UA",
+    "icao:aircraft": "B772",
     "icao:airline": "UAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289985,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102532929,
     "sfomuseum:departure_id": 102527513,
@@ -34,7 +38,15 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N781UA",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "103409061"
+    },
     "wof:country": "US",
     "wof:created": 1750523773,
     "wof:geomhash": "8c8f659fbae3cc58419f360e0abfbe56",
@@ -46,12 +58,12 @@
     ],
     "wof:id": 1964906157,
     "wof:involves": [
+      1159289985,
       102532929,
       102527513,
-      1159285413,
-      -1
+      1159285413
     ],
-    "wof:lastmodified": 1750523773,
+    "wof:lastmodified": 1750524057,
     "wof:name": "UA1736 (SFO-OGG)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
