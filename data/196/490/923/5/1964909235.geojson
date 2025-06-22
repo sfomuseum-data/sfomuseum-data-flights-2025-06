@@ -2,10 +2,12 @@
   "id": 1964909235,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-06-21",
+    "date:cessation_upper": "2025-06-21",
     "date:inception_lower": "2025-06-21",
     "date:inception_upper": "2025-06-21",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-06-21",
+    "edtf:cessation": "2025-06-21T10:53:00Z",
+    "edtf:inception": "2025-06-21T05:03:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "DL",
     "flysfo:date": "2025-06-21",
@@ -21,9 +23,11 @@
     "geom:latitude": 39.672681999999995,
     "geom:longitude": -96.90166049999999,
     "iata:airline": "DL",
+    "icao:aircraft": "B752",
     "icao:airline": "DAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289939,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102526855,
@@ -35,6 +39,10 @@
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "103361387",
+      "swim:gufi": "KB12361701"
+    },
     "wof:country": "US",
     "wof:created": 1750608633,
     "wof:geomhash": "576e5cfa680c89d2e8c8909fdc51c853",
@@ -46,12 +54,12 @@
     ],
     "wof:id": 1964909235,
     "wof:involves": [
+      1159289939,
       102527513,
       102526855,
-      1159284261,
-      -1
+      1159284261
     ],
-    "wof:lastmodified": 1750608633,
+    "wof:lastmodified": 1750610377,
     "wof:name": "DL8963 (PVD-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
