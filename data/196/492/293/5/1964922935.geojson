@@ -2,10 +2,12 @@
   "id": 1964922935,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-06-23",
+    "date:cessation_upper": "2025-06-23",
     "date:inception_lower": "2025-06-22",
     "date:inception_upper": "2025-06-22",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-06-22",
+    "edtf:cessation": "2025-06-23T02:01:00Z",
+    "edtf:inception": "2025-06-22T11:03:55-07:00",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "DL",
     "flysfo:date": "2025-06-22",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.7160145,
     "geom:longitude": -120.259968,
     "iata:airline": "DL",
+    "icao:aircraft": "B752",
     "icao:airline": "DAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289939,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102528985,
     "sfomuseum:departure_id": 102527513,
@@ -34,7 +38,16 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N650DL",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:gufi": "KO84662100"
+    },
     "wof:country": "US",
     "wof:created": 1750696179,
     "wof:geomhash": "eb36f7fd50c4e3281bc24d5224da58d3",
@@ -46,12 +59,12 @@
     ],
     "wof:id": 1964922935,
     "wof:involves": [
-      102528985,
       102527513,
       1159284261,
-      -1
+      1159289939,
+      102528985
     ],
-    "wof:lastmodified": 1750696179,
+    "wof:lastmodified": 1750696888,
     "wof:name": "DL8879 (SFO-LGB)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

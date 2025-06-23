@@ -2,10 +2,12 @@
   "id": 1964925121,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-06-22",
+    "date:cessation_upper": "2025-06-22",
     "date:inception_lower": "2025-06-22",
     "date:inception_upper": "2025-06-22",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-06-22",
+    "edtf:cessation": "2025-06-22T18:28:26Z",
+    "edtf:inception": "2025-06-22T16:39:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -122.7750715,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B38M",
     "icao:airline": "UAL",
     "icao:base_airline": "ANZ",
     "lbl:latitude": 37.620533,
     "lbl:longitude": -122.389374,
+    "sfomuseum:aircraft_id": 1528104575,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102555307,
     "sfomuseum:base_flight_id": "20250622-D-ANZ-9871",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N17341",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +62,10 @@
       1947304447,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "103476959",
+      "swim:gufi": "KO45801100"
+    },
     "wof:country": "US",
     "wof:created": 1750696713,
     "wof:geomhash": "af4ccf784d832b160f78d13fe8b8589a",
@@ -92,9 +105,10 @@
       102527513,
       1159285413,
       1947304457,
-      1159283697
+      1159283697,
+      1528104575
     ],
-    "wof:lastmodified": 1750696713,
+    "wof:lastmodified": 1750696899,
     "wof:name": "UA784 (SFO-YVR)",
     "wof:parent_id": 1947304457,
     "wof:placetype": "custom",

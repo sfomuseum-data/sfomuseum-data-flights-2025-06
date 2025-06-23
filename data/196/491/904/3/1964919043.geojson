@@ -2,10 +2,12 @@
   "id": 1964919043,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2025-06-22",
-    "date:inception_upper": "2025-06-22",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-06-22",
+    "date:cessation_lower": "2025-06-23",
+    "date:cessation_upper": "2025-06-23",
+    "date:inception_lower": "2025-06-23",
+    "date:inception_upper": "2025-06-23",
+    "edtf:cessation": "2025-06-23T07:24:00Z",
+    "edtf:inception": "2025-06-23T01:28:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "B6",
     "flysfo:date": "2025-06-22",
@@ -21,9 +23,11 @@
     "geom:latitude": 39.990156,
     "geom:longitude": -96.6928465,
     "iata:airline": "B6",
+    "icao:aircraft": "A321",
     "icao:airline": "JBU",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289411,
     "sfomuseum:airline_id": 1159284583,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102530741,
@@ -34,7 +38,16 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N993JE",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:gufi": "KB82247101"
+    },
     "wof:country": "US",
     "wof:created": 1750695220,
     "wof:geomhash": "9cccd37636918a32bc446a92e7ba93ba",
@@ -49,9 +62,9 @@
       102527513,
       102530741,
       1159284583,
-      -1
+      1159289411
     ],
-    "wof:lastmodified": 1750695220,
+    "wof:lastmodified": 1750696887,
     "wof:name": "B6333 (BOS-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
