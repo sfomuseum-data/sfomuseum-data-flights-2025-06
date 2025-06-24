@@ -1,0 +1,72 @@
+{
+  "id": 1964929861,
+  "type": "Feature",
+  "properties": {
+    "date:inception_lower": "2025-06-23",
+    "date:inception_upper": "2025-06-23",
+    "edtf:cessation": "",
+    "edtf:inception": "2025-06-23",
+    "flysfo:actual_timestamp": -1,
+    "flysfo:airline": "UA",
+    "flysfo:date": "2025-06-23",
+    "flysfo:estimated_timestamp": 1750717500,
+    "flysfo:event": "A",
+    "flysfo:flight_number": "UA3901",
+    "flysfo:gate": "",
+    "flysfo:journey": "KEF-SFO",
+    "flysfo:scheduled_timestamp": 1750717500,
+    "flysfo:timestamp": 1750717500,
+    "geom:area": 0,
+    "geom:bbox": "-122.370943,37.617990,-22.585315,63.983414",
+    "geom:latitude": 50.800702,
+    "geom:longitude": -72.478129,
+    "iata:airline": "UA",
+    "icao:airline": "UAL",
+    "lbl:latitude": 37.61799,
+    "lbl:longitude": -122.370943,
+    "sfomuseum:airline_id": 1159285413,
+    "sfomuseum:arrival_id": 102527513,
+    "sfomuseum:departure_id": 102553077,
+    "sfomuseum:flight_id": "20250623-A-UAL-3901",
+    "sfomuseum:flight_number": [
+      "UAL3901",
+      "UA3901"
+    ],
+    "sfomuseum:placetype": "flight",
+    "src:geom": "flysfo",
+    "wof:belongsto": [],
+    "wof:country": "US",
+    "wof:created": 1750781950,
+    "wof:geomhash": "e575d5d027a20282afeb027e73d10962",
+    "wof:hierarchy": [
+      {
+        "custom_id": 1964929861,
+        "flight_id": 1964929861
+      }
+    ],
+    "wof:id": 1964929861,
+    "wof:involves": [
+      102527513,
+      102553077,
+      1159285413,
+      -1
+    ],
+    "wof:lastmodified": 1750781950,
+    "wof:name": "UA3901 (KEF-SFO)",
+    "wof:parent_id": -1,
+    "wof:placetype": "custom",
+    "wof:placetype_alt": [
+      "flight"
+    ],
+    "wof:repo": "sfomuseum-data-flights-2025-06",
+    "wof:superseded_by": [],
+    "wof:supersedes": []
+  },
+  "bbox": [
+    -122.370943,
+    37.61799,
+    -22.585315,
+    63.983414
+  ],
+  "geometry": {"coordinates":[[-22.585315,63.983414],[-122.370943,37.61799]],"type":"MultiPoint"}
+}
