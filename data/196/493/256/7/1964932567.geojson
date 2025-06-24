@@ -2,10 +2,12 @@
   "id": 1964932567,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-06-24",
+    "date:cessation_upper": "2025-06-24",
     "date:inception_lower": "2025-06-23",
     "date:inception_upper": "2025-06-23",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-06-23",
+    "edtf:cessation": "2025-06-24T00:21:00Z",
+    "edtf:inception": "2025-06-23T23:28:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "DL",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -120.38022649999999,
     "iata:airline": "DL",
     "iata:base_airline": "",
+    "icao:aircraft": "B738",
     "icao:airline": "DAL",
     "icao:base_airline": "AMX",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102533795,
     "sfomuseum:base_flight_id": "20250623-D-AMX-4421",
@@ -39,7 +43,16 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N3772H",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "103591677",
+      "swim:gufi": "KO79142200"
+    },
     "wof:country": "US",
     "wof:created": 1750782638,
     "wof:geomhash": "602be2a828e3460cadf44be5b1c2e36b",
@@ -54,10 +67,10 @@
       102533795,
       102527513,
       1159284261,
-      -1,
-      1159283539
+      1159283539,
+      1159289871
     ],
-    "wof:lastmodified": 1750782638,
+    "wof:lastmodified": 1750783390,
     "wof:name": "DL2267 (SFO-LAX)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

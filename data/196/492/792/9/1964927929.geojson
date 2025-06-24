@@ -2,10 +2,12 @@
   "id": 1964927929,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-06-23",
+    "date:cessation_upper": "2025-06-23",
     "date:inception_lower": "2025-06-23",
     "date:inception_upper": "2025-06-23",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-06-23",
+    "edtf:cessation": "2025-06-23T23:30:00Z",
+    "edtf:inception": "2025-06-23T21:44:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "DL",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -122.3376055,
     "iata:airline": "DL",
     "iata:base_airline": "",
+    "icao:aircraft": "B738",
     "icao:airline": "DAL",
     "icao:base_airline": "KLM",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20250623-A-KLM-7669",
@@ -39,7 +43,15 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "103679411",
+      "swim:gufi": "KL72481200"
+    },
     "wof:country": "US",
     "wof:created": 1750781461,
     "wof:geomhash": "3123a4aff4021144fa8973299956ba97",
@@ -54,10 +66,10 @@
       102527513,
       102533269,
       1159284261,
-      -1,
-      1159284613
+      1159284613,
+      1159289871
     ],
-    "wof:lastmodified": 1750781461,
+    "wof:lastmodified": 1750783387,
     "wof:name": "DL2533 (SEA-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
