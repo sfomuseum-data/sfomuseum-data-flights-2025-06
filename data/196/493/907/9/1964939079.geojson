@@ -2,10 +2,12 @@
   "id": 1964939079,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-06-24",
+    "date:cessation_upper": "2025-06-24",
     "date:inception_lower": "2025-06-24",
     "date:inception_upper": "2025-06-24",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-06-24",
+    "edtf:cessation": "2025-06-24T16:12:00Z",
+    "edtf:inception": "2025-06-24T11:05:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -102.4509355,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B39M",
     "icao:airline": "UAL",
     "icao:base_airline": "VOZ",
     "lbl:latitude": 37.616825,
     "lbl:longitude": -122.381021,
+    "sfomuseum:aircraft_id": 1528104577,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20250624-A-VOZ-8314",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N37504",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +62,10 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "103616287",
+      "swim:gufi": "KR27051300"
+    },
     "wof:country": "US",
     "wof:created": 1750868244,
     "wof:geomhash": "e5ae5d1ea61206da1f1e1104d6bc1bb7",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 1964939079,
     "wof:involves": [
+      1159285485,
+      1528104577,
       102527513,
       102533243,
       1159285413,
-      1947304607,
-      1159285485
+      1947304607
     ],
-    "wof:lastmodified": 1750868244,
+    "wof:lastmodified": 1750869675,
     "wof:name": "UA1744 (TPA-SFO)",
     "wof:parent_id": 1947304607,
     "wof:placetype": "custom",

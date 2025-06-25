@@ -2,10 +2,12 @@
   "id": 1964943533,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-06-25",
+    "date:cessation_upper": "2025-06-25",
     "date:inception_lower": "2025-06-24",
     "date:inception_upper": "2025-06-24",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-06-24",
+    "edtf:cessation": "2025-06-25T10:40:00Z",
+    "edtf:inception": "2025-06-24T16:23:22-07:00",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -103.4008145,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "A320",
     "icao:airline": "UAL",
     "icao:base_airline": "ANZ",
     "lbl:latitude": 37.620058,
     "lbl:longitude": -122.38824,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102526927,
     "sfomuseum:base_flight_id": "20250624-D-ANZ-9000",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N472UA",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,9 @@
       1947304447,
       102085387
     ],
+    "wof:concordances": {
+      "swim:gufi": "KO11947400"
+    },
     "wof:country": "US",
     "wof:created": 1750869363,
     "wof:geomhash": "8306f5516cededf93440c49d2c7be198",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 1964943533,
     "wof:involves": [
+      1159292085,
       102526927,
       102527513,
       1159285413,
       1947304483,
       1159283697
     ],
-    "wof:lastmodified": 1750869363,
+    "wof:lastmodified": 1750869673,
     "wof:name": "UA1083 (SFO-ATL)",
     "wof:parent_id": 1947304483,
     "wof:placetype": "custom",

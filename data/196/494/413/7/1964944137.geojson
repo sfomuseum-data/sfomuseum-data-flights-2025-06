@@ -2,10 +2,12 @@
   "id": 1964944137,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-06-24",
+    "date:cessation_upper": "2025-06-24",
     "date:inception_lower": "2025-06-24",
     "date:inception_upper": "2025-06-24",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-06-24",
+    "edtf:cessation": "2025-06-24T19:45:00Z",
+    "edtf:inception": "2025-06-24T17:58:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2025-06-24",
@@ -21,9 +23,11 @@
     "geom:latitude": 43.40566,
     "geom:longitude": -122.7750715,
     "iata:airline": "UA",
+    "icao:aircraft": "B39M",
     "icao:airline": "UAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1528104577,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102555307,
     "sfomuseum:departure_id": 102527513,
@@ -34,7 +38,17 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N77585",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "103652856",
+      "swim:gufi": "KO50125300"
+    },
     "wof:country": "US",
     "wof:created": 1750869512,
     "wof:geomhash": "af4ccf784d832b160f78d13fe8b8589a",
@@ -46,12 +60,12 @@
     ],
     "wof:id": 1964944137,
     "wof:involves": [
+      1528104577,
       102555307,
       102527513,
-      1159285413,
-      -1
+      1159285413
     ],
-    "wof:lastmodified": 1750869512,
+    "wof:lastmodified": 1750869678,
     "wof:name": "UA8151 (SFO-YVR)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

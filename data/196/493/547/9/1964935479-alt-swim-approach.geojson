@@ -1,0 +1,37 @@
+{
+  "id": 1964935479,
+  "type": "Feature",
+  "properties": {
+    "geom:area": 0,
+    "geom:bbox": "-121.947370,36.719200,-121.875670,36.933940",
+    "geom:latitude": 36.825640156862974,
+    "geom:longitude": -121.91427622539756,
+    "src:alt_label": "swim-approach",
+    "src:geom": "swim",
+    "swim:elevations": [
+      5029,
+      4463,
+      4253,
+      4047,
+      3782
+    ],
+    "swim:geom": "approach",
+    "swim:timestamps": [
+      1750779543,
+      1750779609,
+      1750779630,
+      1750779655,
+      1750779686
+    ],
+    "wof:geomhash": "f05d24a0b95607f77788912c5984d571",
+    "wof:id": 1964935479,
+    "wof:repo": "sfomuseum-data-flights-2025-06"
+  },
+  "bbox": [
+    -121.94737,
+    36.7192,
+    -121.87567,
+    36.93394
+  ],
+  "geometry": {"coordinates":[[-121.87567,36.7192],[-121.91471,36.81782],[-121.92377,36.84995],[-121.93439,36.88766],[-121.94737,36.93394]],"type":"LineString"}
+}
