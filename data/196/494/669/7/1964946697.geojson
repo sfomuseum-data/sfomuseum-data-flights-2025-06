@@ -2,10 +2,12 @@
   "id": 1964946697,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-06-25",
+    "date:cessation_upper": "2025-06-25",
     "date:inception_lower": "2025-06-25",
     "date:inception_upper": "2025-06-25",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-06-25",
+    "edtf:cessation": "2025-06-25T10:23:03-07:00",
+    "edtf:inception": "2025-06-25T20:20:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "DL",
     "flysfo:date": "2025-06-25",
@@ -21,9 +23,11 @@
     "geom:latitude": 39.702760999999995,
     "geom:longitude": -105.058423,
     "iata:airline": "DL",
+    "icao:aircraft": "B752",
     "icao:airline": "DAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289939,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102531205,
@@ -34,7 +38,17 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N655DL",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "103752148",
+      "swim:gufi": "KG67262400"
+    },
     "wof:country": "US",
     "wof:created": 1750954242,
     "wof:geomhash": "bbd014edfd8455b7d9e062bec23e52e6",
@@ -46,12 +60,12 @@
     ],
     "wof:id": 1964946697,
     "wof:involves": [
+      1159289939,
       102527513,
       102531205,
-      1159284261,
-      -1
+      1159284261
     ],
-    "wof:lastmodified": 1750954242,
+    "wof:lastmodified": 1750955988,
     "wof:name": "DL8947 (MDW-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

@@ -2,10 +2,12 @@
   "id": 1964952733,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-06-26",
+    "date:cessation_upper": "2025-06-26",
     "date:inception_lower": "2025-06-25",
     "date:inception_upper": "2025-06-25",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-06-25",
+    "edtf:cessation": "2025-06-26T09:48:23Z",
+    "edtf:inception": "2025-06-25T14:46:22-07:00",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -101.83923999999999,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B753",
     "icao:airline": "UAL",
     "icao:base_airline": "ANZ",
     "lbl:latitude": 37.621173,
     "lbl:longitude": -122.390131,
+    "sfomuseum:aircraft_id": 1159289945,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102533657,
     "sfomuseum:base_flight_id": "20250625-D-ANZ-9293",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N57869",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,10 @@
       1947304447,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "103697247",
+      "swim:gufi": "KO06204500"
+    },
     "wof:country": "US",
     "wof:created": 1750955713,
     "wof:geomhash": "33c9625a4901edf29154e5ec4b308b8b",
@@ -88,13 +102,14 @@
     ],
     "wof:id": 1964952733,
     "wof:involves": [
+      1159289945,
       102533657,
       102527513,
       1159285413,
       1947304491,
       1159283697
     ],
-    "wof:lastmodified": 1750955713,
+    "wof:lastmodified": 1750955994,
     "wof:name": "UA1871 (SFO-MCO)",
     "wof:parent_id": 1947304491,
     "wof:placetype": "custom",

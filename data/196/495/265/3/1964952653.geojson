@@ -2,10 +2,12 @@
   "id": 1964952653,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-06-25",
+    "date:cessation_upper": "2025-06-25",
     "date:inception_lower": "2025-06-25",
     "date:inception_upper": "2025-06-25",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-06-25",
+    "edtf:cessation": "2025-06-25T21:15:12Z",
+    "edtf:inception": "2025-06-25T18:16:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -109.7109545,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "A319",
     "icao:airline": "UAL",
     "icao:base_airline": "ANZ",
     "lbl:latitude": 37.616825,
     "lbl:longitude": -122.381021,
+    "sfomuseum:aircraft_id": 1159289407,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102528541,
     "sfomuseum:base_flight_id": "20250625-D-ANZ-9080",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N812UA",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +62,10 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "103742016",
+      "swim:gufi": "KO52909400"
+    },
     "wof:country": "US",
     "wof:created": 1750955695,
     "wof:geomhash": "5e0f3a871c366f60ae43a6e5fe25b717",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 1964952653,
     "wof:involves": [
+      1159283697,
+      1159289407,
       102528541,
       102527513,
       1159285413,
-      1947304607,
-      1159283697
+      1947304607
     ],
-    "wof:lastmodified": 1750955695,
+    "wof:lastmodified": 1750955993,
     "wof:name": "UA1517 (SFO-DFW)",
     "wof:parent_id": 1947304607,
     "wof:placetype": "custom",

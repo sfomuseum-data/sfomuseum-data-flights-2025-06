@@ -2,10 +2,12 @@
   "id": 1964951009,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2025-06-25",
-    "date:inception_upper": "2025-06-25",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-06-25",
+    "date:cessation_lower": "2025-06-26",
+    "date:cessation_upper": "2025-06-26",
+    "date:inception_lower": "2025-06-26",
+    "date:inception_upper": "2025-06-26",
+    "edtf:cessation": "2025-06-26T01:42:37Z",
+    "edtf:inception": "2025-06-26T00:26:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "DL",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -117.1757545,
     "iata:airline": "DL",
     "iata:base_airline": "",
+    "icao:aircraft": "A320",
     "icao:airline": "DAL",
     "icao:base_airline": "KLM",
     "lbl:latitude": 37.614759,
     "lbl:longitude": -122.382707,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102527363,
     "sfomuseum:base_flight_id": "20250625-D-KLM-6296",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N353NW",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,10 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "103685621",
+      "swim:gufi": "KO83761400"
+    },
     "wof:country": "US",
     "wof:created": 1750955296,
     "wof:geomhash": "b2ae00b77ffd1072a2eb4148779a5d9e",
@@ -92,9 +106,10 @@
       102527513,
       1159284261,
       1947304679,
-      1159284613
+      1159284613,
+      1159292085
     ],
-    "wof:lastmodified": 1750955296,
+    "wof:lastmodified": 1750955978,
     "wof:name": "DL1088 (SFO-SLC)",
     "wof:parent_id": 1947304679,
     "wof:placetype": "custom",

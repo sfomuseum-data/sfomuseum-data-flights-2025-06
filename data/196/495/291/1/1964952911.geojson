@@ -2,10 +2,12 @@
   "id": 1964952911,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-06-26",
+    "date:cessation_upper": "2025-06-26",
     "date:inception_lower": "2025-06-25",
     "date:inception_upper": "2025-06-25",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-06-25",
+    "edtf:cessation": "2025-06-26T04:31:00Z",
+    "edtf:inception": "2025-06-25T13:49:50-07:00",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -121.104038,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B738",
     "icao:airline": "UAL",
     "icao:base_airline": "ACA",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527337,
     "sfomuseum:base_flight_id": "20250625-D-ACA-4350",
@@ -39,7 +43,16 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N33286",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:gufi": "KO00062500"
+    },
     "wof:country": "US",
     "wof:created": 1750955756,
     "wof:geomhash": "1d9a5fa2c9575ebb155d9645f1016c57",
@@ -54,10 +67,10 @@
       102527337,
       102527513,
       1159285413,
-      -1,
-      1159283597
+      1159283597,
+      1159289871
     ],
-    "wof:lastmodified": 1750955756,
+    "wof:lastmodified": 1750955996,
     "wof:name": "UA340 (SFO-SBA)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
