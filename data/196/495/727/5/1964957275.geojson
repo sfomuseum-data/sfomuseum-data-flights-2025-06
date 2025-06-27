@@ -2,10 +2,12 @@
   "id": 1964957275,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2025-06-26",
-    "date:inception_upper": "2025-06-26",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-06-26",
+    "date:cessation_lower": "2025-06-26",
+    "date:cessation_upper": "2025-06-26",
+    "date:inception_lower": "2025-06-27",
+    "date:inception_upper": "2025-06-27",
+    "edtf:cessation": "2025-06-26T12:37:01-07:00",
+    "edtf:inception": "2025-06-27T01:31:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "WN",
     "flysfo:date": "2025-06-26",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.7160145,
     "geom:longitude": -120.259968,
     "iata:airline": "WN",
+    "icao:aircraft": "B38M",
     "icao:airline": "SWA",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1528104575,
     "sfomuseum:airline_id": 1159285591,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102528985,
@@ -34,7 +38,16 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N8743K",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:gufi": "KL83872500"
+    },
     "wof:country": "US",
     "wof:created": 1751041020,
     "wof:geomhash": "9eec8aef23fa16d55a8c3ae494470e8a",
@@ -46,12 +59,12 @@
     ],
     "wof:id": 1964957275,
     "wof:involves": [
+      1528104575,
       102527513,
       102528985,
-      1159285591,
-      -1
+      1159285591
     ],
-    "wof:lastmodified": 1751041020,
+    "wof:lastmodified": 1751042601,
     "wof:name": "WN849 (LGB-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
