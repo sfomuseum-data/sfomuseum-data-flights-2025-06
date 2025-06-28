@@ -1,0 +1,72 @@
+{
+  "id": 1964966711,
+  "type": "Feature",
+  "properties": {
+    "date:inception_lower": "2025-06-27",
+    "date:inception_upper": "2025-06-27",
+    "edtf:cessation": "",
+    "edtf:inception": "2025-06-27",
+    "flysfo:actual_timestamp": -1,
+    "flysfo:airline": "WN",
+    "flysfo:date": "2025-06-27",
+    "flysfo:estimated_timestamp": 1751095800,
+    "flysfo:event": "A",
+    "flysfo:flight_number": "WN3633",
+    "flysfo:gate": "",
+    "flysfo:journey": "BNA-SFO",
+    "flysfo:scheduled_timestamp": 1751080800,
+    "flysfo:timestamp": 1751095800,
+    "geom:area": 0,
+    "geom:bbox": "-122.370943,36.126387,-86.676652,37.617990",
+    "geom:latitude": 36.8721885,
+    "geom:longitude": -104.5237975,
+    "iata:airline": "WN",
+    "icao:airline": "SWA",
+    "lbl:latitude": 37.61799,
+    "lbl:longitude": -122.370943,
+    "sfomuseum:airline_id": 1159285591,
+    "sfomuseum:arrival_id": 102527513,
+    "sfomuseum:departure_id": 102525035,
+    "sfomuseum:flight_id": "20250627-A-SWA-3633",
+    "sfomuseum:flight_number": [
+      "SWA3633",
+      "WN3633"
+    ],
+    "sfomuseum:placetype": "flight",
+    "src:geom": "flysfo",
+    "wof:belongsto": [],
+    "wof:country": "US",
+    "wof:created": 1751127418,
+    "wof:geomhash": "462e561a68f133085fb895c49eddc748",
+    "wof:hierarchy": [
+      {
+        "custom_id": 1964966711,
+        "flight_id": 1964966711
+      }
+    ],
+    "wof:id": 1964966711,
+    "wof:involves": [
+      102527513,
+      102525035,
+      1159285591,
+      -1
+    ],
+    "wof:lastmodified": 1751127418,
+    "wof:name": "WN3633 (BNA-SFO)",
+    "wof:parent_id": -1,
+    "wof:placetype": "custom",
+    "wof:placetype_alt": [
+      "flight"
+    ],
+    "wof:repo": "sfomuseum-data-flights-2025-06",
+    "wof:superseded_by": [],
+    "wof:supersedes": []
+  },
+  "bbox": [
+    -122.370943,
+    36.126387,
+    -86.676652,
+    37.61799
+  ],
+  "geometry": {"coordinates":[[-86.676652,36.126387],[-122.370943,37.61799]],"type":"MultiPoint"}
+}
