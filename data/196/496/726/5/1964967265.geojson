@@ -2,10 +2,12 @@
   "id": 1964967265,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-06-28",
+    "date:cessation_upper": "2025-06-28",
     "date:inception_lower": "2025-06-27",
     "date:inception_upper": "2025-06-27",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-06-27",
+    "edtf:cessation": "2025-06-28T00:43:00Z",
+    "edtf:inception": "2025-06-27T22:12:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2025-06-27",
@@ -21,9 +23,11 @@
     "geom:latitude": 44.368758,
     "geom:longitude": -118.1959315,
     "iata:airline": "UA",
+    "icao:aircraft": "A319",
     "icao:airline": "UAL",
     "lbl:latitude": 37.61756,
     "lbl:longitude": -122.381052,
+    "sfomuseum:aircraft_id": 1159289407,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102554947,
@@ -48,6 +52,9 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "104045612"
+    },
     "wof:country": "US",
     "wof:created": 1751127555,
     "wof:geomhash": "4b8d850891e12dfac0a460ee51cd363b",
@@ -83,12 +90,13 @@
     ],
     "wof:id": 1964967265,
     "wof:involves": [
-      102527513,
-      102554947,
       1159285413,
-      1947304609
+      1947304609,
+      1159289407,
+      102527513,
+      102554947
     ],
-    "wof:lastmodified": 1751127555,
+    "wof:lastmodified": 1751128959,
     "wof:name": "UA3860 (YYC-SFO)",
     "wof:parent_id": 1947304609,
     "wof:placetype": "custom",
