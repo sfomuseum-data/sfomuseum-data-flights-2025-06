@@ -2,10 +2,12 @@
   "id": 1964980689,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-06-28",
+    "date:cessation_upper": "2025-06-28",
     "date:inception_lower": "2025-06-28",
     "date:inception_upper": "2025-06-28",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-06-28",
+    "edtf:cessation": "2025-06-28T20:34:00Z",
+    "edtf:inception": "2025-06-28T16:15:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2025-06-28",
@@ -21,9 +23,11 @@
     "geom:latitude": 49.395798,
     "geom:longitude": -136.169672,
     "iata:airline": "UA",
+    "icao:aircraft": "B738",
     "icao:airline": "UAL",
     "lbl:latitude": 37.617921,
     "lbl:longitude": -122.38181,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102531979,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N24211",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +58,10 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "104019594",
+      "swim:gufi": "KO50722700"
+    },
     "wof:country": "US",
     "wof:created": 1751214925,
     "wof:geomhash": "24c5d8bcd340273688237ae435bbe348",
@@ -83,12 +97,13 @@
     ],
     "wof:id": 1964980689,
     "wof:involves": [
+      1159289871,
       102531979,
       102527513,
       1159285413,
       1947304623
     ],
-    "wof:lastmodified": 1751214925,
+    "wof:lastmodified": 1751215240,
     "wof:name": "UA1180 (SFO-ANC)",
     "wof:parent_id": 1947304623,
     "wof:placetype": "custom",
